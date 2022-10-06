@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+}
+
+body::before{
+  content: '';
+  position: absolute;
+  background: #535971;
+  width: 100%;
+  height: 436px;
+
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+body{
+  background: #E5E5E5;
+  display: flex;
+  
+  justify-content: center;
+}
+
+h1{
+  color: #FFFFFF;
+  font-family:'Staatliches', cursive;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+
+  width: 163px;
+  height: 60px;
+
+  padding-top: 140px;
+}
+
+p{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+
+  width: 417px;
+  height: 46px;
+
+  padding: 18px 0px 58px 0px;
+}
+
+form{
+  background: white;
+  width: 750px;
+  height: 900px;
+
+  padding: 64px;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+form legend{
+  color: #535971;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid #E6E6F0;
+
+  margin-bottom: 36px;
+}
+
+form label{
+  color: #535971;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+form label span{
+  color: #C1BCCC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.caixa{
+  display: flex;
+  gap: 22px;
+}
+
+div .coluna{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+input{
+  height: 56px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+input:invalid{
+  border: 2px solid rgb(211, 108, 108);
+}
+
+.subtitulo{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  padding: 0;
+  margin: 16px 0px 8px 0px;
+
+  border: none;
+}
+
+footer{
+  background: #535971;
+
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 366px;
+  border-radius: 0 0 20px 20px;
+}
+
+footer button{
+  color: white;
+  font-family: 'Staatliches';
+  font-size: 20px;
+
+  border: none;
+
+  width: 608px;
+  height: 55px;
+
+  background: #FF5374;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+footer button:hover{
+  background: #d7415f;
+}
